@@ -4,7 +4,7 @@
   "description": "simple app for testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha || true"
+    "test": "mocha || true" що за тру?
   },
   "author": "Lora",
   "license": "ISC",
@@ -13,5 +13,6 @@
     "mocha": "^3.5.0",
     "should": "^11.2.1",
     "supertest": "^3.0.0"
+    supertest для чого воно?
   }
 }
