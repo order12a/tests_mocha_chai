@@ -9,6 +9,7 @@ sayHelloResult = app.sayHello();
 addPositiveNumbersResult = app.addNumbers(6, 4);
 addNegativeNumbersResult = app.addNumbers(-6, -4);
 addPositiveAndNegativeNumbersResult = app.addNumbers(6, -4);
+//Такніхто не робить 
 
 describe('App', function () {
     describe('sayhello()', function () {
@@ -18,6 +19,7 @@ describe('App', function () {
         it('function sayHello should return type string.', function () {
             assert.typeOf(sayHelloResult, 'string');
     });
+        //Blank line
     describe('addNumbers()', function () {
         it('Function addNumbers should correctly add positive numbers', function () {
             assert.equal(addPositiveNumbersResult, 10);
@@ -36,7 +38,7 @@ describe('App', function () {
         });
     })
 
-})});
+})});//Що за склад дужок?
 
 
 
